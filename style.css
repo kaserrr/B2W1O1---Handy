@@ -1,0 +1,321 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+/* Header */
+
+header img {
+    margin: 10px;
+}
+
+/* Nav */
+.nav-content-ul {
+    list-style-type: none;
+    display: inline-flex;
+    background-color: #222931;
+    width: 950px;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    list-style: none;
+    background-color: #222931;
+}
+
+.drop-content li a {
+    font-size: 16px;
+}
+
+.drop:hover .drop-content {
+    display: block;
+}
+
+.nav-content-ul li {
+    padding: 10px;
+    position: relative;
+}
+
+.nav-content-ul>li>a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-content-ul>li>a>img {
+    width: 10px;
+    display: inline;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.nav-content-ul li:hover {
+    padding: 10px;
+    background-color: #ffe718;
+}
+
+/* Banner */
+
+.banner-img img {
+    width: 100vw;
+    position: relative;
+    top: -30px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
+}
+
+/*Cards*/
+
+.cards {
+    margin-bottom: 75px;
+    display: inline-flex;
+}
+
+.card1 {
+    background-image: url(img/banner-1.jpg);
+    ;
+}
+
+.card2 {
+    background-image: url(img/banner-2.jpg);
+}
+
+.card3 {
+    background-image: url(img/banner-3.jpg);
+}
+
+.edit p {
+    width: 300px;
+    line-height: 220px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    opacity: 0;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.edit {
+    width: 300px;
+    height: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.edit:hover p {
+    opacity: 100;
+}
+
+/* Ribbon */
+.ribbon {
+    background-color: #ffe718;
+    width: 100vw;
+    position: relative;
+    top: -30px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
+}
+
+.ribbon-content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    color: #222931;
+
+}
+
+.ribbon-content h2 {
+    font-size: 34px;
+}
+
+.ribbon-content h2,
+button,
+p {
+    display: inline-block;
+}
+
+.ribbon-content h2,
+p {
+    margin-top: 35px;
+}
+
+.ribbon-content button {
+    margin-top: 35px;
+    background-color: white;
+    padding: 8px 30px;
+    border: none;
+    float: right;
+}
+
+.ribbon-content p {
+    margin-left: 10px;
+}
+
+.ribbon-content a {
+    color: #222931;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Footer */
+
+.footer-img {
+    z-index: -1;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    top: 75px;
+}
+
+.row2 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+    color: #222931;
+}
+
+i {
+    float: left;
+    font-size: 50px;
+    margin-right: 20px;
+    color: #222931;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe718;
+    width: 300px;
+    height: 90px;
+}
+
+.cards2 h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cards2 span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer .left {
+    width: 500px;
+    float: left;
+}
+
+.footer .right {
+    float: right;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h3 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.title p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.break {
+    margin: 75px 0px;
+    color: grey;
+}
+
+.left p {
+    margin-right: 30px;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.contact p {
+    margin-top: 40px;
+}
+
+.contact i {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.footer-end {
+    background-color: #222931;
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
+    color: white;
+    margin-right: 200px;
+    padding-left: 920px;
+}
+
+/* Diensten Pagina */
+
+.text {
+    margin-bottom: 75px;
+}
+
+.bread {
+    margin-bottom: 20px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color: #ffe718;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #aeb6be;
+    color: #fff;
+    padding: 10px 10px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 50%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
